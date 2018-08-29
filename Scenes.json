@@ -1,0 +1,224 @@
+[
+  {
+    "name": "The Bedroom",
+    "description": "The room is dark and smells horrid.",
+    "monster": "Goat Demon",
+    "entrance": {
+      "description": "You wake up in a dark room. It smells bad...like....REALLY BAD.",
+      "options": {
+        "w": {
+          "description": "You walk around the room",
+          "win text": "You found the thing",
+          "lose text": "You lost 1 HP"
+        },
+        "a": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "s": {
+          "description": "You are bored to death and fall asleep",
+          "win text": "",
+          "lose text": ""
+        },
+        "d": {
+          "description": "You're a loser."
+        }
+      }
+    },
+    "fight": {
+      "description": "",
+      "options": {
+        "w": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "a": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "s": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "d": {
+          "description": ""
+        }
+      }
+    },
+    "leave": {
+      "description": "",
+      "options": {
+        "w": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "a": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "s": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "d": {
+          "description": ""
+        }
+      }
+    }
+  },
+  {
+    "name": "The Street",
+    "description": "It's a full moon out, earily quiet, and no wind",
+    "monster": "The Wind",
+    "entrance": {
+      "description": "",
+      "options": {
+        "w": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "a": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "s": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "d": {
+          "description": ""
+        }
+      }
+    },
+    "fight": {
+      "description": "",
+      "options": {
+        "w": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "a": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "s": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "d": {
+          "description": ""
+        }
+      }
+    },
+    "leave": {
+      "description": "",
+      "options": {
+        "w": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "a": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "s": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "d": {
+          "description": ""
+        }
+      }
+    }
+  },
+  {
+    "name": "The Cave",
+    "description": "Why is the ground wet? It hasn't rained in weeks.",
+    "monster": "A Giant",
+    "entrance": {
+      "description": "",
+      "options": {
+        "w": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "a": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "s": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "d": {
+          "description": ""
+        }
+      }
+    },
+    "fight": {
+      "description": "",
+      "options": {
+        "w": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "a": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "s": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "d": {
+          "description": ""
+        }
+      }
+    },
+    "leave": {
+      "description": "",
+      "options": {
+        "w": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "a": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "s": {
+          "description": "",
+          "win text": "",
+          "lose text": ""
+        },
+        "d": {
+          "description": ""
+        }
+      }
+    }
+  }
+]

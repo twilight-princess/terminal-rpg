@@ -1,16 +1,17 @@
-https://coursework.vschool.io/colossal-adventure-console-rpg/
+let i = 0;
+let HP = 3;
+let backpack = ["cellphone", "charger", "water bottle", "money"];
 
-var sceneCounter = 0;
+main = sceneNumber => {
 
-Main Function (sceneNumber) {
+  // Save Player's Name
 
-  Save Player's Name
 
   Introduce the Game
 
   ? Instructions
 
-  let Scene[i].scene = currentScene
+  const scene = Scenes[i].
 
   print(currentScene.description)
 
@@ -28,34 +29,3 @@ Main Function (sceneNumber) {
     if (number == 1)
       i++
   }
-
-Scenes 
-{
-  Scene: {
-    name: "scene name"
-    sceneDescription: "description"
-    monster: "monster name"
-    entrance: {
-      options: [
-        walk: "description" ["win text", "lose text"]
-        attack: "description" ["win text", "lose text"]
-        sit: "description" ["win text", "lose text"]
-        done: "descriptions" ["win text", "lose text"]
-      ]
-    }
-    fight: {
-      options: [
-        run away: "description"
-        attack: "description"
-        sleep: "description"
-        done: "trigger exit
-      ]
-    }
-    leave: {
-      run away: "description"
-      attack: "description"
-      sleep: "description"
-      done: "trigger exit
-    }
-  }
-}
