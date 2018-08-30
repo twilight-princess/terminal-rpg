@@ -3,13 +3,14 @@
     "name": "The Bedroom",
     "description": "The room is dark and smells horrid.",
     "monster": "Goat Demon",
-    "entrance": {
+    "scene": [{
+      "name": "entrance",
       "description": "You wake up in a dark room. It smells bad...like....REALLY BAD.",
       "options": {
         "w": {
           "description": "You walk around the room",
-          "win text": "You found the thing",
-          "lose text": "You lost 1 HP"
+          "win": "You found the light switch.",
+          "lose": "You stub your toe. You lost 1 HP."
         },
         "a": {
           "description": "",
@@ -26,7 +27,8 @@
         }
       }
     },
-    "fight": {
+    {
+      "name": "fight",
       "description": "",
       "options": {
         "w": {
@@ -49,7 +51,8 @@
         }
       }
     },
-    "leave": {
+    {
+      "name": "exit",
       "description": "",
       "options": {
         "w": {
@@ -71,13 +74,14 @@
           "description": ""
         }
       }
-    }
+    }]
   },
   {
     "name": "The Street",
     "description": "It's a full moon out, earily quiet, and no wind",
     "monster": "The Wind",
-    "entrance": {
+    "scene": {
+      "name": "entrance",
       "description": "",
       "options": {
         "w": {
@@ -100,7 +104,8 @@
         }
       }
     },
-    "fight": {
+    "scene": {
+      "name": "fight",
       "description": "",
       "options": {
         "w": {
@@ -123,7 +128,8 @@
         }
       }
     },
-    "leave": {
+    "exit": {
+      "name": "exit",
       "description": "",
       "options": {
         "w": {
@@ -151,7 +157,8 @@
     "name": "The Cave",
     "description": "Why is the ground wet? It hasn't rained in weeks.",
     "monster": "A Giant",
-    "entrance": {
+    "scene": {
+      "name": "entrance",
       "description": "",
       "options": {
         "w": {
@@ -174,7 +181,8 @@
         }
       }
     },
-    "fight": {
+    "scene": {
+      "name": "fight",
       "description": "",
       "options": {
         "w": {
@@ -197,7 +205,8 @@
         }
       }
     },
-    "leave": {
+    "scene": {
+      "name": "exit",
       "description": "",
       "options": {
         "w": {
