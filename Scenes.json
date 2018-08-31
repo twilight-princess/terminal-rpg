@@ -6,30 +6,34 @@
     "scene": [{
       "name": "entrance",
       "description": "You wake up in a dark room. It smells bad...like....REALLY BAD.",
-      "options": {
-        "w": {
-          "description": "You walk around the room",
-          "win": "You found the light switch.",
-          "lose": "You stub your toe. You lost 1 HP."
-        },
-        "a": {
-          "description": "",
-          "win text": "",
-          "lose text": ""
-        },
-        "s": {
-          "description": "You are bored to death and fall asleep",
-          "win text": "",
-          "lose text": ""
-        },
-        "d": {
-          "description": "You're a loser."
-        }
-      }
+      "options": [
+          {
+            "letter": "Press 'w' to walk around and try to find a light",
+            "description": "You walk forward.",
+            "win": "You bump in to a dresser(?) but you're fine. After about 30 seconds you find the opposite wall and manage to find a light switch! Great! Except the door isn't on the wall in front of you, so it must be behind you...You hear something moving around behind you...something large...You turn around...",
+            "lose": "You stub your toe on a dresser and fall. You lose 1 HP. You hear something moving in the dark. Something big...You fumble around on the floor and manage to find a flashlight! Whatever was moving isn't in front of you...which means...You turn around..."
+          },
+          {
+            "letter": "Press 'a' to violently handle the situation",
+            "description": "You start screaming and throwing punches",
+            "win text": "You hit a wall. Luckily, you're so weak it didn't hurt your hand! There seems to be a light switch right in front of you! Great! Except the door isn't on the wall in front of you, so it must be behind you...You hear something moving around behind you...something large...You turn around...", 
+            "lose text": "Your hand hits something big and furry. You don't seem to have hurt it but it hurt your hand. You lose 1 HP. You hear something moving in the dark. Something big...You focus your eyes in the dark to see what it is..."
+          },
+          {
+            "letter": "Press 's' to sit down calmy assess the situation.",
+            "description": "You sit up on the floor where you woke up. It's dark, but you can make out the outline of something big in front of you. It looks like a huge...dog?",
+            "win text": "You think to yourself, \"Okay...dogs are nice right? Dogs love me!\" You decide to just sit there and see what happens.",
+            "lose text": "You freak out, start screaming as if it's already attacking you, and fall backwards and bang your head on a hard wall! You lose 1 HP."
+          },
+          {
+            "letter": "Press 'd' if this game is already too scary and you want to chicken out.",
+            "description": "Quitters never win. Goodbye. "
+          }
+      ]
     },
     {
       "name": "fight",
-      "description": "",
+      "description": "It's a HUGE demon dog? demon goat? You think, \"Is that Lucifer?!?! Where am I?!?!?\" It makes a weird grunty moose sound. You can't tell if it's crying or growling.",
       "options": {
         "w": {
           "description": "",

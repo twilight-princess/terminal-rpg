@@ -4,15 +4,15 @@ const Game = require('./GameDetails')
 main = sceneNumber => {
 
   // Save Player's Name
-  Game.getPlayerName();
+  // Game.getPlayerName();
 
-  // Introduce the game and give instructions
-  Game.instructions();
+  // // Introduce the game and give instructions
+  // Game.instructions();
 
   // loops through each scene of the game
   Game.gameLoop();
 
-  Game.handleChoice();
+  // Game.handleChoice();
 
 }
 
